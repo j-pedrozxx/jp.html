@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik+Wet+Paint&display=swap');
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+    margin: 0;
+    font-family: "Itim", cursive;
+    background-color:cadetblue
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+     
+
+
+header{
+    background-color: rgb(95, 217, 221);
+    margin: 0%;
+    border-right: 0cap;
+    font-family: "Itim", cursive;
+   
+} 
+nav{
+    background-color:rgb(87, 151, 206);
+    display: flex;
+    justify-content: center;
+
+
+gap: 10px;ht  
+
+}
+
+a{
+    text-decoration: none;
+}
+nav a{
+    margin-right: 150px;
+        color: rgb(255, 255, 255); 
+    
+}
+
+h1{
+    text-align: center;
+    margin: 0cm;
+    border-left: 0cm;
+}
+
+
+
+section{
+    display: flex;
+}
+
+
+
+article{
+    border: solid;
+    border-color:cadetblue
+}
+
+p{
+    padding: 10px;
+}
